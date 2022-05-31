@@ -4,7 +4,7 @@
 
 body{
     font-family: cursive;
-    background-color: black;
+    background-color: black; 
 }
 
 .titulodepagina{
@@ -28,14 +28,15 @@ header{
     max-width: 1600px;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;  
 }
     
 .grid-container li a{
     text-decoration: none;
     color: white;
     padding: 20px;
-    display: block;    
+    display: block;  
+    transition: background-color 1s;  
 }
 
 .grid-container li{
@@ -45,7 +46,7 @@ header{
 }
 
 .grid-container li a:hover{
-    background: rgb(80, 52, 1);
+    background: rgb(196, 128, 2);  
 }
 
 header h1{
@@ -57,6 +58,14 @@ header h1{
 header img{
 margin: 15px 15px 25px 550px;
 border: 10px solid orange;
+animation-name: mianimacion;
+animation-duration: 2s ;
+}
+
+@keyframes mianimacion {
+    0% {border: 10px solid black;}
+    50% {border: 10px solid white;}
+    100% {border: 10px solid orange;}
 }
 
 .items{
