@@ -4,7 +4,7 @@
 
 body{
     font-family: cursive;
-    background-color: black; 
+    background-color: rgb(0, 0, 0); 
 }
 
 .titulodepagina{
@@ -23,7 +23,7 @@ header{
 .grid-container{
     list-style: none;
     padding: 0;
-    background: #000000;
+    background: black;
     width: 90%;
     max-width: 1600px;
     margin: auto;
@@ -74,6 +74,7 @@ animation-duration: 2s ;
     padding: 15px;
 }
 
+
 main{
     background-color: orange;
     position: relative;  
@@ -110,9 +111,13 @@ main h1{
     border: 3px solid #3d2e29;
 }
 
-h2,h3{
-margin: 15px 15px 25px 100px;
-}
+h2{
+    margin: 15px 15px 25px 500px;
+    }
+
+    h3{
+        margin: 15px 15px 25px 350px;
+        }
 
 p{
     margin: 15px;    
@@ -121,6 +126,7 @@ p{
 main li{
     margin: 15px;
 }
+
 
 footer{
     text-align: center;
@@ -173,3 +179,4 @@ table{
      }
 
                      }
+                     
