@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: cursive;
+    background-color: rgb(0, 0, 0); 
+}
+
+.titulodepagina{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;    
+}
+
+header{
+    background-color: black;
+    padding: 50px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    color: white;
+
+    h1{
+        font-style: italic;
+        margin: 15px;
+        text-align: center;
+    }
+
+    img{
+        margin: 15px 15px 25px 550px;
+        border: 10px solid orange;
+        animation-name: mianimacion;
+        animation-duration: 2s ; }
+}
+
+.grid-container{
+    list-style: none;
+    padding: 0;
+    background: black;
+    width: 90%;
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;  
+
+    li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;  
+        transition: background-color 1s;  
+    }
+
+    li{
+        display:flex;
+        display: grid;
+        flex-direction: column;
+    }
+
+    li a:hover{
+        background: rgb(196, 128, 2);  
+    }
+}
+
+
+@keyframes mianimacion {
+    0% {border: 10px solid black;}
+    50% {border: 10px solid white;}
+    100% {border: 10px solid orange;}
+}
+
+.items{
+    float: left;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+main{
+    background-color: orange;
+    position: relative;  
+
+    h1{
+        text-align: center;
+    }
+
+    li{
+        margin: 15px;
+    }
+}
+
+
+
+.h2subtitulo{
+    margin: 15px 15px 25px 650px;
+}
+
+.h3subtitulos{
+    margin: 15px 15px 25px 580px;
+}
+
+.imggymbro{
+    margin: 15px 15px 25px 200px;
+    border: 3px solid #3d2e29;
+}
+
+.imgmusculos{
+    margin: 15px 15px 25px 500px;
+    border: 3px solid #3d2e29;
+}
+
+.imgsuplementos{
+    margin: 15px 15px 25px 600px;
+    border: 3px solid #3d2e29;
+}
+
+.imgejercicios{
+    border: 3px solid #3d2e29;
+}
+
+h2{
+    margin: 15px 15px 25px 500px;
+    }
+h3{
+        margin: 15px 15px 25px 350px;
+        }
+
+p{
+    margin: 15px;    
+}
+
+footer{
+    text-align: center;
+    margin: 15px; 
+    background-color: black;
+    color: white;
+}
+
+table{
+ border: 3px solid #3d2e29;
+ margin: 15px 15px 25px 530px;
+ border-collapse: collapse 
+}
+
+ th,tfoot,td{
+    border: 3px solid #3d2e29;
+    padding: 5px;
+} 
+
+@media (max-width:767px){
+   
+    header{
+        
+        display: inline-block;
+        overflow: hidden;   
+        
+        h1{
+            margin: 10px 10px 15px 0px;
+        }
+
+        img{
+            margin: 10px 10px 15px 50px;
+             }
+    }
+
+     .grid-container {
+       display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        margin: 10px 10px 10px 0px;
+      }
+     
+      main{
+       width:350px;
+     }
+
+     .imggymbro{
+        width: 250px;
+        margin: 10px 10px 10px 10px;
+     }
+
+                     }
+                     
