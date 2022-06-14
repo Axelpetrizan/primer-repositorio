@@ -2,9 +2,12 @@
     margin: 0;
 }
 
+//colornegro
+$x1: rgb(0, 0, 0);
+
 body{
     font-family: cursive;
-    background-color: rgb(0, 0, 0); 
+    background-color:$x1; 
 }
 
 .titulodepagina{
@@ -178,5 +181,4 @@ table{
         margin: 10px 10px 10px 10px;
      }
 
-                     }
-                     
+                    }
